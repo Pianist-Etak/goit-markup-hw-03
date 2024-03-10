@@ -103,11 +103,9 @@ button {
   color: #404bbf;
 }
 .main {
-}
-.main-wrap {
+  background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  background: #2e2f42;
 }
 .main-title {
   font-weight: 700;
@@ -133,6 +131,8 @@ button {
   margin: 0 auto;
   border-radius: 4px;
   padding: 16px 32px;
+  min-width: 169;
+  border: none;
 }
 
 .main-btn:hover,
@@ -140,11 +140,10 @@ button {
   background: #404bbf;
 }
 .goals {
-}
-.goal-wrap {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .visually-hidden {
   margin: -1px;
   border: 0;
@@ -167,7 +166,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 18px;
+  margin-bottom: 8px;
 }
 .goals-item-text {
   font-size: 16px;
@@ -202,6 +201,10 @@ button {
 }
 .team-image {
 }
+.team-why {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -221,7 +224,8 @@ button {
   padding-bottom: 32px;
 }
 .portfolio {
-  padding: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -250,6 +254,12 @@ button {
 }
 .portfolio-image {
 }
+.portfolio-why {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -270,9 +280,13 @@ button {
 }
 .footer {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-container {
   padding-top: 100px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo-part {
   font-family: "Raleway", sans-serif;
